@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.editor{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.header{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 40%;
+    color: blue;
+}
+
+.box{
+    width: 1000px;
+    background-color: aqua;
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+
+}
+
+.input{
+    font-size: 20px;
+    padding: 5px;
+    height: 35px;
+}
+
+.paragraph{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.span{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.span:hover{
+    color: red;
+}
+
+.parpar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background-color: beige;
+    height: 35px;
+    align-items: baseline;
+}
